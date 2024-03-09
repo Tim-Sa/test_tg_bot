@@ -7,7 +7,7 @@ renv:
 	. ./venv/bin/activate
 
 run:
-	venv/bin/python replier_parser.py
+	venv/bin/python main.py
 
 freeze:
 	venv/bin/python -m pip freeze
